@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.example.app"
+	android:versionCode="1" android:versionName="1.0">
+
+    <activity android:allowEmbedded= "true" 
+              android:allowTaskReparenting= "true" 
+              android:alwaysRetainTaskState= "true" 
+              android:autoRemoveFromRecents= "true" 
+              android:banner="drawable resource" 
+              android:clearTaskOnLaunch= "true" 
+              android:colorMode= "hdr"
+              android:label="Hello" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"/>
+</manifest>
